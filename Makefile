@@ -1,7 +1,7 @@
 AR ?= ar
 CXX ?= g++
 NVCC ?= nvcc -ccbin $(CXX)
-PYTHON ?= python
+PYTHON ?= python3
 
 ifeq ($(OS),Windows_NT)
 LIBHASTE := haste.lib
